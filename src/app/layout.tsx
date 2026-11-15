@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Hanken_Grotesk, Inter, JetBrains_Mono, Open_Sans, Roboto } from "next/font/google";
 import Background from "@/components/ui/Background";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 // Two variable fonts, so one file each covers every weight we use.
 const hankenGrotesk = Hanken_Grotesk({
